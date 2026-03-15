@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 47.4% 11.2%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 47.4% 11.2%;
+  --primary: 348 77% 45%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 96%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+  --muted: 0 0% 96%;
+  --muted-foreground: 220 8% 38%;
+  --accent: 350 86% 95%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+  --border: 0 0% 90%;
+  --input: 0 0% 90%;
+  --ring: 348 77% 45%;
+  --radius: 0.75rem;
+}
+
+* {
+  @apply border-border;
+}
+
+body {
+  @apply bg-background text-foreground antialiased text-[18px] font-medium;
+  background-image:
+    linear-gradient(180deg, rgba(220, 20, 60, 0.08) 0%, rgba(255, 255, 255, 0) 40%),
+    radial-gradient(circle at 15% 10%, rgba(220, 20, 60, 0.08), transparent 45%);
+}
+
+.prose {
+  @apply max-w-none;
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+  @apply scroll-mt-24 font-semibold tracking-tight font-display;
+}
+
+.prose p,
+.prose li {
+  @apply text-[1.05rem] leading-7 font-normal;
+}
+
+.prose code {
+  @apply rounded bg-muted px-1.5 py-0.5 text-sm;
+}
+
+.prose pre {
+  @apply overflow-x-auto rounded-lg border bg-slate-950 p-4 text-slate-100;
+}

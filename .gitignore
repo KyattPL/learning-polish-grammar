@@ -1,0 +1,13 @@
+node_modules
+.next
+out
+dist
+*.log
+.env
+.env.local
+.env.production
+.DS_Store
+content/episodes/**/llm-prompt.md
+playlist.override.local.json
+prompts
+scripts
