@@ -7,7 +7,7 @@ export function SiteHeader() {
       <div className="container flex h-16 items-center justify-between">
         <Link className="inline-flex items-center gap-2 text-sm font-semibold" href="/">
           <span className="rounded-md m-1 bg-primary/15 text-primary">
-            <Image src="/logo.jpg" alt="YT Channel logo" width="32" height="32" className="rounded-md" />
+            <Image src="/learning-polish-grammar/logo.jpg" alt="YT Channel logo" width="32" height="32" className="rounded-md" />
           </span> 
           <span className="font-display text-base tracking-tight">
             Learning Polish Grammar

@@ -77,7 +77,7 @@ export default async function HomePage() {
 
           <div className="rounded-2xl border bg-background p-5">
             <div className="flex items-start gap-4">
-              <Image src="/logo.jpg" alt="YT Channel logo" width="48" height="48" className="rounded-sm" />
+              <Image src="/learning-polish-grammar/logo.jpg" alt="YT Channel logo" width="48" height="48" className="rounded-sm" />
               <div className="flex-1">
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">
                   Channel
